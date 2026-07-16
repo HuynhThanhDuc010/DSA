@@ -27,7 +27,7 @@ int main()
                 int check = A[i] + A[l] + A[r] + A[j];
                 if (check == target)
                 {
-                    cout << "1";
+
                     B.push_back({A[i], A[l], A[r], A[j]});
                     while (l < r && A[l] == A[l + 1])
                         l++;
@@ -38,14 +38,14 @@ int main()
                 }
                 else if (check < target)
                 {
-                    cout << "2";
+
                     while (l < r && A[l] == A[l + 1])
                         l++;
                     l++;
                 }
                 else
                 {
-                    cout << "3";
+
                     while (l < r && A[r - 1] == A[r])
                         r--;
                     r--;
