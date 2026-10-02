@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int n;
-// link:https://leetcode.com/problems/generate-parentheses/description/
+// https://leetcode.com/problems/generate-parentheses/description/
 vector<string> ans;
 vector<string> tmp;
 void Try(int mo, int dong)
